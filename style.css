@@ -19,8 +19,9 @@ body{
     background: #c7a9a3;
     border: 2px solid black;
     border-radius: 0.5rem;
-    height: 40vh;
-
+    height: 35vh;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    transform: scale(1.02);
 }
 h2{
     font-size: 2rem;
@@ -35,7 +36,7 @@ h2{
     padding: 1rem;
     font-size: 1rem;
     background: #f7efe7;
-    border: 2px solid black;
+    border: none;
     border-radius: 0.5rem;
 }
 button{
@@ -47,6 +48,8 @@ button{
     outline: none;
     border: 1px solid black;
     border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 button:hover{
     background: rgb(117, 218, 117);
@@ -60,4 +63,6 @@ button:hover{
     margin-top: 2.5rem;
     height: 100px;
     width: 43%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    transform: scale(1.02);
 }
