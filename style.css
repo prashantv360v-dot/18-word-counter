@@ -38,6 +38,7 @@ h2{
     background: #f7efe7;
     border: none;
     border-radius: 0.5rem;
+    outline: none;
 }
 button{
     padding: 10px;
